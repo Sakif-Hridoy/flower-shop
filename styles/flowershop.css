@@ -171,3 +171,45 @@ text-decoration-line: underline;
     padding-top: 30px;
 }
 
+.span{
+    color: #E55473;
+}
+
+.banner-deal{
+        display: flex;
+        padding: 85px 70px 0px 200px;
+        justify-content: space-between;
+        align-items: center;
+    
+}
+
+.banner-deal-content{
+width: 500px;
+align-items: center;
+}
+
+.banner-deal-greeting{
+    font-size: 45px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+
+}
+
+.banner-deal-description{
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.btn-signup {
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    padding: 5px 5px;
+    width: 160px;
+    height: 54px;
+   
+  }
