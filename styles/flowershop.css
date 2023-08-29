@@ -11,15 +11,24 @@ font-family: 'Open Sans', sans-serif;
 
 .header{
     background: rgba(229, 84, 115, 0.10);
-    height: 850px;
     background-repeat: no-repeat;
 }
 
 .banner{
     display: flex;
-    padding: 85px 70px 100px 200px;
+    padding: 85px 70px 0px 200px;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    padding-bottom: 30px;
+
+}
+
+.banner-description{
+    padding-bottom: 35px;
 }
 
 .btn-primary {
@@ -42,4 +51,102 @@ font-family: 'Open Sans', sans-serif;
     width: 350px;
     padding-right: 100px;
     
+}
+
+/* header section end*/
+
+/* featured-flowers-container start*/
+
+
+
+.featured-flowers{
+
+    padding: 94px;
+  border-radius: 10px;
+  
+}
+
+.flower-title{
+
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.flower-description{
+
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.violet-flower{
+    background: rgba(167, 33, 98, 0.15);
+    padding: 55px 20px 0px 20px;
+   
+    border-radius: 300px 300px 0px 0px;
+    
+    border-radius: 300px 300px 0px 0px;
+    width: 310px;
+    height: 428px;
+    
+}
+
+.red-flower{
+    background: rgba(5, 151, 160, 0.15);
+    padding: 55px 20px 0px 20px;
+   
+    border-radius: 300px 300px 0px 0px;
+    
+    border-radius: 300px 300px 0px 0px;
+    width: 370px;
+height: 430px;
+    
+}
+
+.yellow-flower{
+    background: rgba(71, 125, 17, 0.15);
+    padding: 10px 20px 0px 20px;
+   
+    border-radius: 300px 300px 0px 0px;
+    
+    border-radius: 300px 300px 0px 0px;
+    width: 314px;
+height: 471px;
+    
+}
+
+
+
+.featured-flowers-container{
+    display: flex;
+    gap: 24px;
+}
+
+.flower-description{
+    padding-bottom: 100px;
+}
+
+.flower-tree{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px; /* 145.833% */
+text-decoration-line: underline;
+
+}
+
+.flower-tree-title{
+    padding-top: 60px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
 }
