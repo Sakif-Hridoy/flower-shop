@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    height: 850px;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    display: flex;
+    padding: 85px 70px 100px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    padding: 5px 5px;
+    width: 160px;
+    height: 54px;
+  }
+
+.banner-content{
+    width: 500px;
+}
+
+.banner-flower{
+    width: 350px;
+    padding-right: 100px;
+    
+}
