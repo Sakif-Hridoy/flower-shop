@@ -150,3 +150,24 @@ text-decoration-line: underline;
     line-height: 35px; /* 145.833% */
     text-decoration-line: underline;
 }
+
+
+.support{
+   display: flex;
+   padding: 50px;
+   margin: 87px;
+   background-color: rgba(39, 39, 39, 0.05);
+   justify-content: center;
+   gap: 200px;
+   text-align: center;
+}
+
+.support-icon{
+    padding: 30px;
+}
+
+
+.support-icon1,.support-icon3{
+    padding-top: 30px;
+}
+
