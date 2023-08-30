@@ -235,3 +235,67 @@ body {
   margin: 2%;
   width: 20%;
 }
+
+/* latest deal section */
+
+.flower-cover{
+  background-image: url("../Flower Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: auto;
+height: 405px;
+  background-size:contain;
+
+  
+}
+
+.flower-cover-title{
+
+  padding-top: 70px;
+  text-align: center;
+
+}
+
+.flower-cover-description{
+
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 40px;
+
+
+}
+
+input[type="email"]{
+  width: 400px;
+height: 54px;
+border: none;
+border-radius: 5px;
+
+}
+
+
+input::placeholder {
+  padding-left: 10px;
+}
+
+
+.btn-sbs{
+  
+    border-radius: 8px;
+    border: none;
+    background: #e55473;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    padding: 5px 5px;
+    width: 160px;
+    height: 54px;
+  
+}
+
+.flower-email{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  /* padding-left: 260px; */
+}
