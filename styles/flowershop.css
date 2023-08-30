@@ -153,6 +153,9 @@ body {
   padding-top: 30px;
 }
 
+.support-icon3{
+    padding-right: 50px;
+}
 .span {
   color: #e55473;
 }
@@ -228,10 +231,7 @@ body {
     /* margin: 0% 70% 0% 10%; */
 }
 
-#flower-width{
-   
-}
-
-.instagram-flowers-section{
-    
+#insta-flowers img {
+  margin: 2%;
+  width: 20%;
 }
