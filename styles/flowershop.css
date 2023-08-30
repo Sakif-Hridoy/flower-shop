@@ -56,7 +56,7 @@ body {
 
 .featured-flowers {
   padding: 94px;
-  border-radius: 10px;
+  
 }
 
 .flower-title {
@@ -145,7 +145,7 @@ body {
 }
 
 .support-icon {
-  padding: 30px;
+  padding: 30px 25px 30px 0px;
 }
 
 .support-icon1,
@@ -201,4 +201,37 @@ body {
   width: 318px;
   height: 420px;
   padding-bottom: 40px;
+}
+
+
+/*instagram flowers*/
+
+.instagram-flowers-section{
+    padding: 110px;
+    text-align: center;
+    
+}
+
+.ins-flower-title{
+    font-size: 34px;
+}
+
+.ins-flower-description{
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.ins-flower-container{
+    display: flex;
+    gap: 24px;
+    /* margin: 0px 200px 10px 5px; */
+    /* margin: 0% 70% 0% 10%; */
+}
+
+#flower-width{
+   
+}
+
+.instagram-flowers-section{
+    
 }
