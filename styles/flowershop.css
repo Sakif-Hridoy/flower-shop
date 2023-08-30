@@ -299,3 +299,40 @@ input::placeholder {
   justify-content: center;
   /* padding-left: 260px; */
 }
+
+.footer-cover{
+  background: #111010;
+  background-repeat: no-repeat;
+  
+  margin: auto;
+height: 365px;
+  background-size:contain;
+
+}
+
+.footer-cover-title{
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.footer-cover-description{
+  
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.footer-end{
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  padding-top: p20x;
+  padding-bottom: 40px;
+  
+}
+
+.span{
+  color: #e55473;
+}
