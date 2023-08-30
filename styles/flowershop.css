@@ -236,9 +236,46 @@ body {
   width: 20%;
 }
 
+
+
+.bela-flower-container{
+  display: flex;
+  gap: 100px;
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+  width: 80%;
+  justify-content: center;
+ margin: auto;
+ padding: 50px;
+ margin-bottom: 100px;
+ align-items: center;
+  
+}
+
+.bela-flower-title{
+
+  font-size: 35px;
+  padding-bottom: 20px;
+
+}
+
+.bela-flower-description{
+font-size: 20px;
+color:#272727;
+
+}
+
+.bela-img{
+  width: 500px;
+  border-radius: 20px;
+}
+
+
+
 /* latest deal section */
 
 .flower-cover{
+  
   background-image: url("../Flower Asset/Rectangle 9.png");
   background-repeat: no-repeat;
   width: 80%;
