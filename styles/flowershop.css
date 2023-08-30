@@ -1,215 +1,204 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-
-.header{
-    background: rgba(229, 84, 115, 0.10);
-    background-repeat: no-repeat;
+.header {
+  background: rgba(229, 84, 115, 0.1);
+  background-repeat: no-repeat;
 }
 
-.banner{
-    display: flex;
-    padding: 85px 70px 0px 200px;
-    justify-content: space-between;
-    align-items: center;
+.banner {
+  display: flex;
+  padding: 85px 70px 0px 200px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.banner-greeting{
-    font-size: 45px;
-    padding-bottom: 30px;
-
+.banner-greeting {
+  font-size: 45px;
+  padding-bottom: 30px;
 }
 
-.banner-description{
-    padding-bottom: 35px;
+.banner-description {
+  padding-bottom: 35px;
 }
 
 .btn-primary {
-    border-radius: 8px;
-    border: none;
-    background: #E55473;
-    font-size: 21px;
-    font-weight: 700;
-    color: white;
-    padding: 5px 5px;
-    width: 160px;
-    height: 54px;
-  }
-
-.banner-content{
-    width: 500px;
+  border-radius: 8px;
+  border: none;
+  background: #e55473;
+  font-size: 21px;
+  font-weight: 700;
+  color: white;
+  padding: 5px 5px;
+  width: 160px;
+  height: 54px;
 }
 
-.banner-flower{
-    width: 350px;
-    padding-right: 100px;
-    
+.banner-content {
+  width: 500px;
+}
+
+.banner-flower {
+  width: 350px;
+  padding-right: 100px;
 }
 
 /* header section end*/
 
 /* featured-flowers-container start*/
 
-
-
-.featured-flowers{
-
-    padding: 94px;
+.featured-flowers {
+  padding: 94px;
   border-radius: 10px;
-  
 }
 
-.flower-title{
-
-    font-size: 35px;
-    text-align: center;
-
+.flower-title {
+  font-size: 35px;
+  text-align: center;
 }
 
-.flower-description{
-
-    padding-top: 20px;
-    text-align: center;
-
+.flower-description {
+  padding-top: 20px;
+  text-align: center;
 }
 
-.violet-flower{
-    background: rgba(167, 33, 98, 0.15);
-    padding: 55px 20px 0px 20px;
-   
-    border-radius: 300px 300px 0px 0px;
-    
-    border-radius: 300px 300px 0px 0px;
-    width: 310px;
-    height: 428px;
-    
+.violet-flower {
+  background: rgba(167, 33, 98, 0.15);
+  padding: 55px 20px 0px 20px;
+
+  border-radius: 300px 300px 0px 0px;
+
+  border-radius: 300px 300px 0px 0px;
+  width: 310px;
+  height: 428px;
 }
 
-.red-flower{
-    background: rgba(5, 151, 160, 0.15);
-    padding: 55px 20px 0px 20px;
-   
-    border-radius: 300px 300px 0px 0px;
-    
-    border-radius: 300px 300px 0px 0px;
-    width: 370px;
-height: 430px;
-    
+.red-flower {
+  background: rgba(5, 151, 160, 0.15);
+  padding: 55px 20px 0px 20px;
+
+  border-radius: 300px 300px 0px 0px;
+
+  border-radius: 300px 300px 0px 0px;
+  width: 370px;
+  height: 430px;
 }
 
-.yellow-flower{
-    background: rgba(71, 125, 17, 0.15);
-    padding: 10px 20px 0px 20px;
-   
-    border-radius: 300px 300px 0px 0px;
-    
-    border-radius: 300px 300px 0px 0px;
-    width: 314px;
-height: 471px;
-    
+.yellow-flower {
+  background: rgba(71, 125, 17, 0.15);
+  padding: 10px 20px 0px 20px;
+
+  border-radius: 300px 300px 0px 0px;
+
+  border-radius: 300px 300px 0px 0px;
+  width: 314px;
+  height: 471px;
 }
 
-
-
-.featured-flowers-container{
-    display: flex;
-    gap: 24px;
+.featured-flowers-container {
+  display: flex;
+  gap: 24px;
 }
 
-.flower-description{
-    padding-bottom: 100px;
+.flower-description {
+  padding-bottom: 100px;
 }
 
-.flower-tree{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px; /* 145.833% */
-text-decoration-line: underline;
-
+.flower-tree {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
 }
 
-.flower-tree-title{
-    padding-top: 60px;
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px; /* 145.833% */
-    text-decoration-line: underline;
+.flower-tree-title {
+  padding-top: 60px;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
 }
 
-
-.support{
-   display: flex;
-   padding: 50px;
-   margin: 87px;
-   background-color: rgba(39, 39, 39, 0.05);
-   justify-content: center;
-   gap: 200px;
-   text-align: center;
+.support {
+  display: flex;
+  padding: 50px;
+  margin: 87px;
+  background-color: rgba(39, 39, 39, 0.05);
+  justify-content: center;
+  gap: 200px;
+  text-align: center;
 }
 
-.support-icon{
-    padding: 30px;
+.support-icon {
+  padding: 30px;
 }
 
-
-.support-icon1,.support-icon3{
-    padding-top: 30px;
+.support-icon1,
+.support-icon3 {
+  padding-top: 30px;
 }
 
-.span{
-    color: #E55473;
+.span {
+  color: #e55473;
 }
 
-.banner-deal{
-        display: flex;
-        padding: 85px 70px 0px 200px;
-        justify-content: space-between;
-        align-items: center;
-    
+.banner-deal {
+  display: flex;
+  padding: 85px 70px 0px 200px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.banner-deal-content{
-width: 500px;
-align-items: center;
+.banner-deal-content {
+  width: 500px;
+  align-items: center;
 }
 
-.banner-deal-greeting{
-    font-size: 45px;
-    padding-bottom: 30px;
-    text-align: center;
-    
-
+.banner-deal-greeting {
+  font-size: 34px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
-.banner-deal-description{
-    padding-bottom: 35px;
-    text-align: center;
+.banner-deal-description {
+  padding-bottom: 35px;
+  text-align: center;
 }
 
 .btn-signup {
-    border-radius: 8px;
-    border: none;
-    background: #E55473;
-    font-size: 21px;
-    font-weight: 700;
-    color: white;
-    padding: 5px 5px;
-    width: 160px;
-    height: 54px;
-   
-  }
+  border-radius: 8px;
+  border: none;
+  background: #e55473;
+  font-size: 21px;
+  font-weight: 700;
+  color: white;
+  padding: 5px 5px;
+  width: 120px;
+  height: 54px;
+}
+
+.button-align {
+  text-align: center;
+}
+
+.banner-deal-flower {
+  padding-right: 100px;
+  width: 318px;
+  height: 420px;
+  padding-bottom: 40px;
+}
