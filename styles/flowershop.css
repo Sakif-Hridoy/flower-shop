@@ -1,3 +1,5 @@
+/* Global */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Header and Banner Section */
 .header {
   background: rgba(229, 84, 115, 0.1);
   background-repeat: no-repeat;
@@ -56,7 +59,6 @@ body {
 
 .featured-flowers {
   padding: 94px;
-  
 }
 
 .flower-title {
@@ -75,7 +77,6 @@ body {
 
   border-radius: 300px 300px 0px 0px;
 
-  border-radius: 300px 300px 0px 0px;
   width: 310px;
   height: 428px;
 }
@@ -86,7 +87,6 @@ body {
 
   border-radius: 300px 300px 0px 0px;
 
-  border-radius: 300px 300px 0px 0px;
   width: 370px;
   height: 430px;
 }
@@ -97,7 +97,6 @@ body {
 
   border-radius: 300px 300px 0px 0px;
 
-  border-radius: 300px 300px 0px 0px;
   width: 314px;
   height: 471px;
 }
@@ -134,6 +133,8 @@ body {
   text-decoration-line: underline;
 }
 
+/* Support Section */
+
 .support {
   display: flex;
   padding: 50px;
@@ -153,9 +154,12 @@ body {
   padding-top: 30px;
 }
 
-.support-icon3{
-    padding-right: 50px;
+.support-icon3 {
+  padding-right: 50px;
 }
+
+/* Deal Banner */
+
 .span {
   color: #e55473;
 }
@@ -206,29 +210,25 @@ body {
   padding-bottom: 40px;
 }
 
-
 /*instagram flowers*/
 
-.instagram-flowers-section{
-    padding: 110px;
-    text-align: center;
-    
+.instagram-flowers-section {
+  padding: 110px;
+  text-align: center;
 }
 
-.ins-flower-title{
-    font-size: 34px;
+.ins-flower-title {
+  font-size: 34px;
 }
 
-.ins-flower-description{
-    padding-top: 30px;
-    padding-bottom: 45px;
+.ins-flower-description {
+  padding-top: 30px;
+  padding-bottom: 45px;
 }
 
-.ins-flower-container{
-    display: flex;
-    gap: 24px;
-    /* margin: 0px 200px 10px 5px; */
-    /* margin: 0% 70% 0% 10%; */
+.ins-flower-container {
+  display: flex;
+  gap: 24px;
 }
 
 #insta-flowers img {
@@ -236,140 +236,120 @@ body {
   width: 20%;
 }
 
+/* Bela Flower */
 
-
-.bela-flower-container{
+.bela-flower-container {
   display: flex;
   gap: 100px;
   border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+  background: rgba(229, 84, 115, 0.05);
   width: 80%;
   justify-content: center;
- margin: auto;
- padding: 50px;
- margin-bottom: 100px;
- align-items: center;
-  
+  margin: auto;
+  padding: 50px;
+  margin-bottom: 100px;
+  align-items: center;
 }
 
-.bela-flower-title{
-
+.bela-flower-title {
   font-size: 35px;
   padding-bottom: 20px;
-
 }
 
-.bela-flower-description{
-font-size: 20px;
-color:#272727;
-
+.bela-flower-description {
+  font-size: 20px;
+  color: #272727;
 }
 
-.bela-img{
+.bela-img {
   width: 500px;
   border-radius: 20px;
 }
 
-
-
 /* latest deal section */
 
-.flower-cover{
-  
+.flower-cover {
   background-image: url("../Flower Asset/Rectangle 9.png");
   background-repeat: no-repeat;
   width: 80%;
   margin: auto;
-height: 405px;
-  background-size:contain;
-
-  
+  height: 405px;
+  background-size: contain;
 }
 
-.flower-cover-title{
-
+.flower-cover-title {
   padding-top: 70px;
   text-align: center;
-
 }
 
-.flower-cover-description{
-
+.flower-cover-description {
   padding: 10px;
   text-align: center;
   padding-bottom: 40px;
-
-
 }
 
-input[type="email"]{
+input[type="email"] {
   width: 400px;
-height: 54px;
-border: none;
-border-radius: 5px;
-
+  height: 54px;
+  border: none;
+  border-radius: 5px;
 }
-
 
 input::placeholder {
   padding-left: 10px;
 }
 
-
-.btn-sbs{
-  
-    border-radius: 8px;
-    border: none;
-    background: #e55473;
-    font-size: 21px;
-    font-weight: 700;
-    color: white;
-    padding: 5px 5px;
-    width: 160px;
-    height: 54px;
-  
+.btn-sbs {
+  border-radius: 8px;
+  border: none;
+  background: #e55473;
+  font-size: 21px;
+  font-weight: 700;
+  color: white;
+  padding: 5px 5px;
+  width: 160px;
+  height: 54px;
 }
 
-.flower-email{
+/* Footer */
+
+.flower-email {
   display: flex;
   gap: 10px;
   justify-content: center;
   /* padding-left: 260px; */
 }
 
-.footer-cover{
+.footer-cover {
   background: #111010;
   background-repeat: no-repeat;
-  
-  margin: auto;
-height: 365px;
-  background-size:contain;
 
+  margin: auto;
+  height: 365px;
+  background-size: contain;
 }
 
-.footer-cover-title{
+.footer-cover-title {
   color: white;
   padding-top: 70px;
   text-align: center;
   font-size: 35px;
 }
 
-.footer-cover-description{
-  
+.footer-cover-description {
   text-align: center;
   padding-top: 35px;
   padding-bottom: 40px;
-  color: rgba(255, 255, 255, 0.90);
+  color: rgba(255, 255, 255, 0.9);
 }
 
-.footer-end{
-  color: rgba(255, 255, 255, 0.40);
+.footer-end {
+  color: rgba(255, 255, 255, 0.4);
   text-align: center;
   padding-top: p20x;
   padding-bottom: 40px;
-  
 }
 
-.span{
+.span {
   color: #e55473;
 }
